@@ -76,7 +76,7 @@
     padding: 3px 200px;
     justify-content: center;
     align-items: center;
-    height: 578px;
+    height: 550px;
     /* height: 100vh; */
 
 }
@@ -118,6 +118,7 @@
     margin: 3px 6px;
     border-radius: 28px;
     background-color: #f2f2f2;
+    margin-bottom: 20px;
 }
 
 #services .box img {
@@ -134,7 +135,7 @@
 #clients-section {
     height: 344px;
     position: relative;
-    
+
 }
 
 #clients-section::before {
@@ -161,6 +162,50 @@
     padding: 34px;
 }
 
+/* Contact Section */
+#contact {
+    position: relative;
+}
+
+#contact::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url("../contact.jpg") no-repeat center center/cover;
+}
+
+#contact-box {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding-bottom: 34px;
+}
+
+#contact-box input,
+#contact-box textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+
+#contact-box form {
+    width: 40%;
+}
+
+#contact-box label {
+    font-size: 1.3rem;
+    font-family: 'Bree Serif', serif;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 9px 20px;
+}
 
 /* Utility Classes */
 .h-primary {
