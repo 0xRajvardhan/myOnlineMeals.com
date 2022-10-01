@@ -20,7 +20,8 @@ html{
     align-items: center;
     /* font-family: 'Baloo Bhai 2', cursive; */
     height: 8vh;
-    position: relative;
+    position: sticky;
+    top: 0;
 }
 
 /* Logo and Image */
