@@ -1,7 +1,7 @@
 /* Navigation */
 #navbar{
     flex-direction: column;
-    height: 20vh;
+    height: 16vh;
 }
 
 #navbar ul li a{
