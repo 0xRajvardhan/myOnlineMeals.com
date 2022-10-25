@@ -243,6 +243,23 @@ footer {
     color: blueviolet;
 }
 
+.x {
+    padding: 2px 10px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 37px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 85%;
+    margin-left: 30px;
+}
+
+.x:hover {
+    background-color: white;
+    color: blueviolet;
+}
 .center {
     text-align: center;
 }
